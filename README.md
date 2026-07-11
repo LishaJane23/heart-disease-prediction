@@ -12,4 +12,4 @@ This project uses a Logistic Regression model to predict whether a patient has a
 * **data/**: Contains the patient dataset (`framingham.csv`).
 * **notebooks/**: Contains the complete, runnable Python code (`exploration_and_modeling.ipynb`).
 * **outputs/**: Contains the four generated charts and model evaluation graphs.
-*
+
