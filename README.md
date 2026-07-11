@@ -9,9 +9,10 @@ This project uses a Logistic Regression model to predict whether a patient has a
 * **Model Evaluation:** Achieved a complete performance breakdown by generating a Confusion Matrix, measuring precision and recall, and mapping out an ROC-AUC curve.
 
 ## Repository Contents
-* [**data/**](data/): Contains the patient dataset (`framingham.csv`).
-* [**notebooks/**](notebooks/): Contains the complete, runnable Python code (`exploration_and_modeling.ipynb`).
-* [**outputs/**](outputs/): Contains the four generated charts and model evaluation graphs.
+* [**data/**](https://github.com/LishaJane23/heart-disease-prediction/tree/main/data): Contains the patient dataset (`framingham.csv`).
+* [**notebooks/**](https://github.com/LishaJane23/heart-disease-prediction/tree/main/notebooks): Contains the complete, runnable Python code (`exploration_and_modeling.ipynb`).
+* [**outputs/**](https://github.com/LishaJane23/heart-disease-prediction/tree/main/outputs): Contains the four generated charts and model evaluation graphs.
+
 
 ## Core Results & Visualizations
 The model successfully maps out patient risk probability. Below are the visual assets generated during runtime:
