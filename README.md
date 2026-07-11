@@ -9,7 +9,25 @@ This project uses a Logistic Regression model to predict whether a patient has a
 * **Model Evaluation:** Achieved a complete performance breakdown by generating a Confusion Matrix, measuring precision and recall, and mapping out an ROC-AUC curve.
 
 ## Repository Contents
-* **data/**: Contains the patient dataset (`framingham.csv`).
-* **notebooks/**: Contains the complete, runnable Python code (`exploration_and_modeling.ipynb`).
-* **outputs/**: Contains the four generated charts and model evaluation graphs.
+* [**data/**](data/): Contains the patient dataset (`framingham.csv`).
+* [**notebooks/**](notebooks/): Contains the complete, runnable Python code (`exploration_and_modeling.ipynb`).
+* [**outputs/**](outputs/): Contains the four generated charts and model evaluation graphs.
 
+## Core Results & Visualizations
+The model successfully maps out patient risk probability. Below are the visual assets generated during runtime:
+
+### Class Distribution
+![Class Distribution](outputs/class_distribution.png)
+
+### Correlation Heatmap
+![Correlation Heatmap](outputs/correlation_heatmap.png)
+
+### Confusion Matrix
+![Confusion Matrix](outputs/confusion_matrix.png)
+
+### ROC-AUC Curve
+![ROC Curve](outputs/roc_curve.png)
+
+## Future Scope
+* Implement Ensemble Methods (e.g., Random Forest, XGBoost) to optimize predictive recall.
+* Apply class imbalance correction techniques (like SMOTE) to improve sensitivity on high-risk patient profiles.
